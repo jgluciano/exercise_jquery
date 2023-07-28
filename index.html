@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Minder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <img src="img.png" />
+        <h1>Task Minder</h1>
+      </header>
+      <form id="task-form">
+        <input
+          id="task-input"
+          type="text"
+          required
+          placeholder="Insert your task:"
+        />
+        <button type="submit">Add</button>
+      </form>
+      <div id="phrase">
+        <a>"Add your tasks and organize your life"</a>
+      </div>
+      <ul id="task-list"></ul>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="script.js"></script>
+</html>
